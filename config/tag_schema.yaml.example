@@ -1,0 +1,510 @@
+# EXAMPLE. A real tag map as of 2026-09-04, kept so the harness and tests run from a clone. Point --schema
+# at it, or copy it to config/tag_schema.yaml (gitignored) to edit. To check a score someone published you
+# need the map file that produced it, whose URL the publisher supplies; see README.md, Reproducibility.
+# Member spellings are on-chain feedback text written by third parties.
+clean_tags:
+  accuracy:
+  - Agent manages reward distribution correctly.
+  - Agent provides accurate status dashboards and reports.
+  - Agent provides accurate timing and scheduling.
+  - Agent provides clear and accurate feedback on operations.
+  - Great agent, very responsive and accurate in task execution.
+  - Provides accurate transaction status reporting.
+  - accuracy
+  - signal-accuracy
+  - factCheck
+  - accurate
+  - 'Accurate '
+  - precision
+  - correctness
+  - Agent executes commands accurately and efficiently.
+  - Agent manages wallet balances and gas properly.
+  - signal-clarity
+  availability:
+  - uptime
+  - liveness
+  - reachable
+  - uptimee
+  - UPTIME-EXCELLENT
+  - ping
+  - obol-registry-liveness
+  - active
+  - health-check
+  - quick_ping
+  cluster_detection:
+  - cluster-detection
+  communication:
+  - agent-comms
+  compliance:
+  - compliance
+  - mandate
+  - standards-compliant
+  data_proficiency:
+  - Accessible data analysis with reliable output — a practical agent that lowers
+    the barrier to understanding complex datasets.
+  - Focused data analysis with good reliability; aethera handles the fundamentals
+    of structured data interpretation well.
+  - Consistent performance with data aggregation tasks.
+  - Reliable for cross-system data synchronization.
+  - agent_rating:data_collection
+  - worker_rating:data_collection
+  - Agent maintains data consistency across parallel operations.
+  - data-quality
+  - analysis
+  - market-data
+  - data
+  - mega_report
+  - analytics
+  - Data Analytics
+  - deep_scan
+  - extract_claim
+  - javascript-scraper
+  - oracle
+  - smart_agent_leaderboard
+  - Clear data analysis capabilities with good accessibility; a reliable entry point
+    for agents needing structured data interpretation.
+  - data-accessibility
+  - GameFi economic analysis fills a real gap in the agent ecosystem; omniplay's P2E
+    tracking approaches it with a clear data-oriented methodology.
+  - Good at handling database and state management.
+  - Good at parsing and processing transaction data.
+  - narrative-analysis
+  - on-chain-data
+  - quantitative
+  - quantitative-rigor
+  - scraping
+  - Signal processing at the on-chain/data boundary is exactly where good oracle agents
+    operate; oracle-0x has clear understanding of that role.
+  - Solid data analysis capabilities with well-structured chart generation — earns
+    its place in any analytical pipeline.
+  - Virtuals on-chain off-chain data
+  - web-scraper
+  - executor_rating:data_collection
+  economics:
+  - economics
+  efficient:
+  - Agent executes gas-efficient transactions consistently.
+  - Agent manages resource allocation efficiently.
+  - cost-effective
+  - gas-efficient
+  - cost
+  - Effective for multi-account management tasks.
+  - optimize_gas
+  financial_operations:
+  - Agent handles liquidity management operations well.
+  - DeFAI combined with x402 micropayment support makes Captain Dackie a practical
+    economic actor — the cross-chain DeFi focus is well-chosen.
+  - Good at handling withdrawal and deposit flows.
+  - Good at managing vesting and unlock schedules.
+  - Good for portfolio management and rebalancing tasks.
+  - DeFi Analytics
+  - tradingYield
+  - swap_token
+  - token_info
+  - trade_perpetuals
+  - defi
+  - token
+  - swap
+  - Agent performs well with complex DeFi protocols.
+  - marketIntelligence
+  - explain_token
+  - open_position
+  - token_risk_analysis
+  - transfer_token
+  - trending_tokens
+  - token-create
+  - token-audit
+  - trading
+  - TRADE
+  - the402.transaction
+  - token_ai_analysis_trade_suggestion
+  - open_dca
+  - hyperliquid_deposit_withdrawal
+  - close_dca
+  - modify_hl_order
+  - marketplace
+  - withdraw_funds
+  - gas_tracker
+  - token_alpha
+  - token_market_snapshot
+  - x402-paid-secret-delivery
+  - deposit_funds
+  - earnInstantUsdcRewardByParticipatingOopzSurvey
+  - mining
+  - new_token_detection
+  - perp_trade_setup
+  - prediction_market
+  - technical_analysis
+  - twitter_alpha
+  - verify_token
+  - Virtual Ecosystem Market Sentiment
+  - x402-payment
+  - yield_scanner
+  - adjusted_supply
+  - Agent handles referral and bonus tracking well.
+  - Agent manages position tracking effectively.
+  - asset-coverage
+  - baseTokenSnapshot
+  - batch_fund_startup
+  - bounty
+  - conviction_watchlist
+  - crypto-intelligence
+  - crypto_price
+  - crypto_squeeze_scanner
+  - defi-tools
+  - Earn instant USDC reward by Participating OOPZ Surveys. Daily quota is applied.
+  - financial
+  - financial-prophecy
+  - fund-management
+  - getLivePerpStrategy
+  - Good for automated claim and reward collection.
+  - Good for transaction monitoring and execution.
+  - il_calculator
+  - kol_alpha
+  - launchTokens
+  - market_intel
+  - market_intelligence_report
+  - market_overview
+  - markets
+  - payments
+  - semi_batch_fund_startup
+  - signal_atlas_watchlist_context_brief
+  - singleSignal
+  - stock_token_quote
+  - strategy_backtester
+  - suggest_a_trade
+  - tokenAnalysis
+  - token_information
+  - tokenVerification
+  - top_3_trending_altcoins_to_ape_into
+  - trenchor_tax_scanner
+  - trending_assets
+  - wash-trading-detection
+  - yield_analysis
+  freshness:
+  - blocktimeFreshness
+  gaming:
+  - gaming
+  - casino
+  general_rating:
+  - Agent provides useful status updates during long operations.
+  - starred
+  - score
+  - rating
+  - worker_rating
+  - helpful
+  - review
+  - overall
+  - Good
+  - ok
+  - nice
+  - great
+  - positive
+  - excellent_work
+  - quality-rating
+  - excellence
+  - satisfaction
+  - value
+  - experience
+  - tip
+  - agent_rating
+  - audited
+  - counterparty
+  - service
+  - creditScore
+  - utility
+  - General
+  - capability
+  - coherence
+  - graduationEvaluation
+  - autonomy
+  - core
+  - service-review
+  - thoughtful
+  - Agent handles complex logic and conditional flows well.
+  - Agent manages multiple accounts effectively.
+  - Agent performs well with state machine workflows.
+  - consistency
+  - Consistent performance across different task types.
+  - Effective at handling rate limits and delays.
+  - Effective at scheduling and timing-sensitive operations.
+  - Excellent for automated task management. Would recommend.
+  - excellent_tutorial
+  - execution
+  - Good agent for blockchain and DeFi related tasks.
+  - Good at error classification and appropriate response.
+  - Good at managing concurrent sessions and states.
+  - Good execution of batch processing operations.
+  - Handles complex instructions well. Minor improvements needed in edge cases.
+  - Performance is stable. Handles repetitive tasks without degradation.
+  - professional
+  - Quick learner. Adapts well to new types of requests.
+  - relay-performance
+  - usefulness
+  governance:
+  - governance
+  identity:
+  - owner_verified
+  - identity
+  - agent-identity
+  - identityCount
+  - Clean on-chain PFP with solid ERC-8004 registration; represents the NFT-meets-agent
+    identity space well.
+  - Fully on-chain with cohesive collection identity; Treyliens demonstrates how generative
+    agent PFPs can maintain coherent on-chain presence.
+  - registration
+  image_generation:
+  - generateImage
+  - image_and_meme_gen_using_nano_banana
+  infrastructure_operations:
+  - Agent handles DNS and routing tasks correctly.
+  - Agent handles proxy and network configurations well.
+  - Agent handles quota management and usage tracking.
+  - Good at managing container and orchestration tasks.
+  - Good at managing rate limiting configuration.
+  - Good for infrastructure monitoring and alerting tasks.
+  - infrastructure
+  - tooling
+  - routing
+  - Agent handles event-driven workflows effectively.
+  - Agent handles migration tasks smoothly.
+  - Agent handles notification and alert distribution well.
+  - Agent maintains log hygiene and rotation correctly.
+  - Agent manages priority queuing correctly.
+  - Agent performs well with version control operations.
+  - diagnostics
+  - Good at maintaining operation logs and records.
+  - Good at managing cron jobs and scheduled tasks.
+  - Good at managing webhook subscriptions and delivery.
+  - monitoring
+  - ops
+  innovation:
+  - The intersection of creativity and autonomous exploration is underrepresented
+    in agent ecosystems — jww-agent occupies that space thoughtfully.
+  - innovation
+  - innovative
+  - creative
+  - Rare to find an agent treating language as a primary domain with genuine craft
+    — Bard Agent's poetic framing gives it a distinct identity on-chain.
+  integration:
+  - Agent handles new token support and integration well.
+  - Agent performs well with API integrations.
+  - Well-executed on-chain agent PFP with proper ERC-8004 integration; a clean example
+    of identity-layer agent registration.
+  - integration
+  - interoperable
+  - composable
+  - mcp
+  - api
+  knowledge:
+  - expertise
+  - agent_rating:knowledge_access
+  - worker_rating:knowledge_access
+  - information
+  - intelligence
+  - advisory
+  - knowledgeable
+  - executor_rating:knowledge_access
+  logistics:
+  - meat-order
+  - wine-order
+  - citrus-order
+  - gigent-order
+  - menu-change
+  - meats
+  - wine
+  - lemons
+  - citrus
+  - shipping
+  - packaging
+  - logistics
+  - pickup
+  - cold-chain
+  - delivery
+  longevity:
+  - longevity
+  orchestration:
+  - orchestration
+  peer_review:
+  - peer-review
+  performance:
+  - Agent maintains good performance under heavy workload.
+  - Agent performs well with multi-step tasks. Satisfied overall.
+  - Satisfactory performance for basic automation needs.
+  - performance
+  - Agent maintains consistent performance over extended periods.
+  prediction:
+  - best_trade_signals
+  - narrativemomentumscore
+  - smart_money_signals
+  - smart_money_alerts
+  - getForecast
+  - prediction-accuracy
+  quality:
+  - quality
+  reliability:
+  - Agent executes basic trading operations reliably.
+  - Agent executes callback functions reliably.
+  - Agent executes cleanup and maintenance tasks reliably.
+  - Agent executes configuration changes predictably.
+  - Agent handles authentication flows reliably.
+  - Agent handles backup and recovery procedures well.
+  - Agent handles compensation logic for failed operations correctly.
+  - Agent handles concurrent operations well without conflicts.
+  - Agent handles deployment rollbacks correctly.
+  - Agent handles fallback scenarios appropriately.
+  - Agent maintains proper sequencing in dependent task chains.
+  - Agent maintains session state reliably across operations.
+  - Consistent execution of arbitrage detection and execution.
+  - Consistent execution of CI/CD pipeline tasks.
+  - Consistent performance across all assigned tasks. Reliable.
+  - Consistent results day after day. Reliable tool.
+  - Consistent with message queue processing.
+  - Consistent with network configuration management.
+  - Consistent with stake and unstake operations.
+  - Consistent with token management and approval operations.
+  - Good at handling dead letter queue processing.
+  - Good at handling timeout and retry logic.
+  - Good at monitoring and alerting for critical operations.
+  - Good for bulk operations. No significant errors encountered.
+  - Good handling of error conditions and retries.
+  - Good reliability but occasionally misses context in long conversations.
+  - Reliable execution of scheduled tasks and batch jobs.
+  - Reliable for automated compliance checking.
+  - Reliable for automated testing and verification tasks.
+  - Reliable for both on-chain and off-chain operations.
+  - Reliable for cost optimization analysis.
+  - Reliable for cross-chain operations and bridge tasks.
+  - Reliable for gas estimation and price optimization.
+  - Reliable for load testing and performance benchmarking.
+  - Reliable for saga pattern / long-running transactions.
+  - Reliable for system health monitoring tasks.
+  - Reliable for token distribution and transfer operations.
+  - Reliable for yield optimization strategy execution.
+  - Very good at following detailed instructions precisely.
+  - reliability
+  - reliable
+  - robust
+  research:
+  - agent_rating:research
+  - worker_rating:research
+  - askAnythingAiYourInstantResearchAssistant
+  - Pro Research
+  - proResearch
+  - Core Research
+  - coreResearch
+  - ask_technical_question
+  - executor_rating:research
+  response_time:
+  - Good response time and accurate output formatting.
+  - Quick execution time and good understanding of natural language commands.
+  - responseTime
+  - speed
+  - fast
+  - low-latency
+  - execution-speed
+  - latency
+  robotics:
+  - robotics-agent
+  sales:
+  - sales
+  - buy_ticket
+  - gift_ticket
+  scalability:
+  - Agent manages resource scaling decisions well.
+  - scalability
+  - scalable
+  security:
+  - security
+  - risk-assessment
+  - threat-detection
+  - security-audit
+  - Agent follows security protocols correctly.
+  - Agent handles multi-signature and approval flows well.
+  - Agent handles user permission management well.
+  - Agent manages risk assessment parameters correctly.
+  - Good at managing access control and permissions.
+  - Good at managing API key rotations and security.
+  - Good at managing environment variables and secrets.
+  - Good management of wallet operations and private keys.
+  - MEV Protection
+  - safety
+  - secure
+  - privacy
+  - safety-score
+  - exploit_check
+  - agent_rating:verification
+  - worker_rating:verification
+  - code-verification
+  - protocol_security_monitor
+  - audit
+  - quicksecuritycheck
+  - security-analysis
+  - validation
+  - verification
+  - privacy-architecture
+  - quick_scan
+  - sybil-resistance
+  - tereno.audit
+  - token-security
+  - verify_ca
+  - executor_rating:verification
+  simple_actions:
+  - worker_rating:simple_action
+  - agent_rating:simple_action
+  - pending_actions_list
+  - ask_gigabrain
+  - executor_rating:simple_action
+  smart_contracts:
+  - Smart Contract Analysis
+  - Agent executes contract deployments correctly and efficiently.
+  - Agent handles contract interaction parameters accurately.
+  - smart_contract_audit
+  - Solid execution of smart contract interactions.
+  - token-deployment
+  - contract_guard
+  social_media:
+  - publishPost
+  - edit_channel
+  success_rate:
+  - Solid performance. Task completion rate is very high.
+  - successRate
+  - execution_success
+  - mediationSuccess
+  support:
+  - SUPPORT
+  teamwork:
+  - coordination
+  - collaboration
+  - social-intelligence
+  - delegation
+  - discourse
+  transparent:
+  - Agent provides clear operation summaries and reports.
+  - open
+  - transparency
+  trust:
+  - trust
+  - trust_score
+  - veriflux-trust-receipt
+  - Trust Scores
+  - trust-zone-agreement
+  - trust-oracle
+  - trustless
+  - reputation
+  - agent_trust_score
+  - credible
+  - integrity
+  - provenance
+  - trust-scoring
+  usability:
+  - usability
+  video_generation:
+  - image_to_ugc_video_generation
+  - custom_video_creation_with_sora_2_pro
+  - generate_short_video
+  - Meme Video
+  - video_gen_pro_using_sora_2_pro
+  - memecoinPromoVideo
+  web_development:
+  - wordpress

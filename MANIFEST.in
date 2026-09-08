@@ -1,0 +1,7 @@
+graft scripts
+graft config
+graft docs
+include data/feedback_sample.csv
+include CHANGELOG.md
+global-exclude __pycache__/* *.py[cod]
+exclude config/tag_schema.yaml

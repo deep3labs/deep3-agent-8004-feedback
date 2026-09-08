@@ -1,0 +1,16 @@
+__pycache__/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.tmp
+data/*
+!data/feedback_sample.csv
+config/tag_schema.yaml
+.env
+.env.*

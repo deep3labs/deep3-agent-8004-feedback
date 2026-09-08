@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-8004feedback"
+dynamic = ["version"]
+description = "ERC-8004 reputation: a pure, importable scoring library (repscore + its tagmap resolver) plus an in-repo scoring harness"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Deep3 Labs"}]
+keywords = ["erc-8004", "reputation", "scoring", "onchain-agents"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
+]
+requires-python = ">=3.11"
+dependencies = ["pyyaml>=6", "pydantic>=2"]
+
+[project.urls]
+Repository = "https://github.com/deep3labs/deep3-agent-8004-feedback"
+Issues = "https://github.com/deep3labs/deep3-agent-8004-feedback/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.16"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+repscore = ["py.typed"]
+
+[tool.setuptools.dynamic]
+version = {attr = "repscore.__version__"}
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "scripts"]
+
+[tool.ruff]
+line-length = 125
+
+[tool.ruff.lint]
+extend-select = ["E501", "W", "I", "UP", "B", "BLE"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/repscore/tagmap/schema.py" = ["BLE001"]
